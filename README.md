@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus)](CMakeLists.txt) [![Contributors](https://img.shields.io/github/contributors/aspose-email-foss/Aspose.JMAP-FOSS-for-Cpp.svg)](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Cpp/graphs/contributors)
 
-[![Aspose.JMAP FOSS for C++](https://products.aspose.org/media/jmap/cpp/banner-readme.png)](https://products.aspose.org/jmap/cpp/)
-
 Aspose.JMAP FOSS for C++ is a free, open source, header-only JMAP client library for C++20 — for
 talking to a [JMAP](https://jmap.io) mail server over HTTP:
 [RFC 8620](https://www.rfc-editor.org/rfc/rfc8620) Core (session, `Core/echo`, blob
@@ -161,16 +159,10 @@ raw method calls for `sendRequest`. Errors surface as `JmapNetworkException` (tr
 `JmapProtocolException` (a JMAP method-level error); per-item `Set` failures are returned as
 data on the result rather than thrown.
 
-The full protocol/API reference, rendered from the same specs that drive generation, is
-[`docs/api-reference.md`](../../docs/api-reference.md) at the repository root.
+The protocol/API reference is generated from the same specifications that drive this library.
 
 ## Documentation & Resources
 
-- **[Getting started guide](https://docs.aspose.org/jmap/cpp/)** — installation and walkthroughs.
-- **[API reference](https://reference.aspose.org/jmap/cpp/)** — browsable reference for the public types.
-- **[How-to guides & FAQ](https://kb.aspose.org/jmap/cpp/)** — task-focused answers.
-- **[Protocol/API reference](../../docs/api-reference.md)** — the in-repo reference rendered from the specs.
-- **[Changelog](../../CHANGELOG.md)**, **[Contributing guide](../../CONTRIBUTING.md)**, **[Security policy](../../SECURITY.md)**.
 - Found a bug or have a feature request? [Open an issue](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Cpp/issues) on GitHub.
 
 ## Scope and Limitations
