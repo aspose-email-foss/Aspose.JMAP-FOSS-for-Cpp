@@ -1,0 +1,8 @@
+build/
+cmake-build-*/
+*.obj
+*.o
+*.exe
+*.pdb
+CMakeCache.txt
+CMakeFiles/
